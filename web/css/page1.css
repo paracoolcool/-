@@ -1,0 +1,23 @@
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    background-color: pink;
+}
+.carousel{
+    margin-top: 0px;
+    margin-left:20px;
+    float: left;
+    width: 700px;
+    height: 455px;
+    background-color: #c81623;
+    overflow: hidden;
+}
+
+.newsflash{
+    margin-top: 0px;
+    float:right;
+    width: 250px;
+    height: 455px;
+    background-color: #1094fa;
+}

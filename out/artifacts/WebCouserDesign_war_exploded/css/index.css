@@ -1,0 +1,139 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.demo_ul01{
+    list-style-type: none;
+    margin: 0px ;
+    padding: 0px;
+    border: 0px;
+    position: fixed;
+    width: 100%;
+    float: left;
+    background-color: #8D8D8D;
+}
+#login{
+    margin-left: 200px;
+}
+.demo_ul01 li{
+    float: left;
+}
+.demo_ul01 li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.demo_ul01 li input{
+    margin-top: 15px;
+    margin-left: 600px;
+}
+.demo_ul01 li a:hover{
+    background-color: #00FF00;
+}
+.demo_02{
+    position: relative;
+
+}
+.more{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+}
+.demo_02:hover .more{
+    display: block
+}
+.demo_ul02 li{
+    float: right;
+    padding: 14px 15px;
+}
+
+/*
+  以下是左侧边栏css样式
+*/
+.div_02{
+    float: left;
+    height: 100%;
+    width: 200px;
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: #f1f1f1 ;
+    position: fixed;
+}
+.div_02 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+.div_02 ul li{
+    border: 1px solid black;
+}
+.div_02 ul a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.div_02 ul a:hover{
+    background-color: #555;
+    color: white;
+}
+.li_02{
+    border: none;
+    display: none;
+}
+
+
+
+
+/*
+    以下是中间内容css样式
+*/
+.div_03{
+    height: 1000px;
+    width: 1000px;
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: #f1f1f1 ;
+    float: left;
+    margin-left: 205px;
+}
+.imgbox {
+    border-top: 5px solid cadetblue;
+    /* 避免因窗口变化影响图片效果 */
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.img {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    display: none;
+}
+
+
+
+.div_04{
+    display: block;
+    text-align: center;
+    margin-top: 500px;
+    margin-left: 1300px;
+    width:50px;
+    height: 100px;
+    position: fixed;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#img01{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+}

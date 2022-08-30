@@ -1,0 +1,1 @@
+SELECT p.title,c.price,c.num FROM `t_cart` c, t_product p WHERE p.id=c.pid AND uid=12  //备忘

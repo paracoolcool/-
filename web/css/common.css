@@ -1,0 +1,302 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../images/bg.png");
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    text-decoration: none;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+    line-height: 37px;
+}
+
+
+.demo_02{
+    position: relative;
+    display: block;
+}
+.more a{
+    display:block;
+    padding: 14px 16px;
+    color: black;
+    border: 0.5px solid;
+}
+.more a:hover{
+    background-color:#aa5500;
+}
+.more{
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    background-color: #e9e9e9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+}
+
+.demo_02:hover .more{
+    display: block
+}
+.shortcut{
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.fr li{
+    float: left;
+    list-style-type: none;
+    font-size: 12px;
+}
+.fr li:nth-child(even){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fr li:hover{
+    color: red;
+}
+
+/*header*/
+.header .w div{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+/*主体区搜索栏*/
+.container .w{
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+.search{
+
+    height: 100px;
+    line-height: 100px;
+}
+.search img{
+    width: 180px;
+    height: 91px;
+    float: left;
+    padding: 20px 40px;
+}
+.search_area{
+    position: relative;
+    margin-left: 70px;
+    top: 36px;
+    float: left;
+}
+#sc_input{
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 1px solid red;
+    margin: 0px;
+    width: 540px;
+    height: 42px;
+}
+#sc_btn{
+    position: absolute;
+    left: 520px;
+    border-radius: 20px;
+    border: 1px solid red;
+    width: 90px;
+    height: 42px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+.shopcar{
+    position: absolute;
+    left:700px;
+    float: left;
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    line-height: 42px;
+    background-color:#eeeeee;
+    border: 0.2px solid;
+}
+.shopcar img{
+    padding: 5px;
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+}
+#tip{
+    position: absolute;
+    left: 22px;
+    top: -5px;
+    height: 15px;
+    line-height: 15px;
+    background-color: red;
+    border-radius: 8px 8px 8px 0;
+    color: white;
+    font-size: 5px;
+}
+.shopcar a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+/*nav导航模块*/
+#navDemo{
+    margin-top:40px;
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+.dropdown{
+    width: 210px;
+    height: 47px;
+    float: left;
+
+    background-color:#b1191a;
+}
+.dropdown .dt{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 47px;
+}
+.dropdown .dd{
+    display: none;
+    width: 100%;
+    height: 465px;
+    margin-top:0px;
+    background-color: #c81623;
+}
+.dropdown .dd ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.dropdown .dd ul li{
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    text-align: left;
+    margin-left: 2px;
+}
+.dropdown .dd ul li:hover{
+    background-color: #fff;
+}
+.dropdown .dd ul li::after{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-family: "icomoon";
+    content: "\ea1c";
+    color: white;
+}
+
+.dropdown .dd ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+.dropdown .dd ul li:hover a{
+    color: #c81623;
+}
+.navitems{
+    float: left;
+}
+.navitems ul{
+    list-style-type: none;
+}
+.navitems ul li{
+    float: left;
+    height: 45px;
+    line-height: 45px;
+}
+.navitems ul li a{
+    display: block;
+    padding: 0 25px;
+    height: 47px;
+    line-height: 18px;
+    font-size: 16px;
+    text-decoration: none;
+}
+/*底部*/
+.footer{
+    padding: 30px;
+    height: 415px;
+    background-color: #f5f5f5;
+}
+.mod_service{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+.mod_service ul{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.mod_service ul li{
+
+}
+h5{
+    float: left;
+    height: 50px;
+    width: 50px;
+    background-image: url("../images/icons_proc.jpg");
+    background-repeat: no-repeat;
+    background-position: -253px -3px;
+    font-size: 0px;
+}
+.svic_1{
+    float: left;
+    height: 50px;
+    line-height: 15px;
+}
+.mod_message{
+    width: 100%;
+    height: 186px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.img img{
+    margin-top: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+}
+.carousel{
+    margin-top: 0px;
+    margin-left:20px;
+    float: left;
+    width:70%;
+    height:100%;
+    background-color: #c81623;
+    overflow: hidden;
+}
+
+.newsflash{
+    margin-top: 0px;
+    float:right;
+    width: 30%;
+    height:100%;
+    background-color: #1094fa;
+}
